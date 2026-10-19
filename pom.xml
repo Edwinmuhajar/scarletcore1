@@ -28,7 +28,7 @@
       <artifactId>paper-api</artifactId>
       <!-- Dikompilasi ke 26.1, jalan di server 26.1 ke atas (termasuk 26.3).
            Boleh dinaikkan ke 26.3-R0.1-SNAPSHOT kalau sudah tersedia. -->
-      <version>26.1-R0.1-SNAPSHOT</version>
+    <version>26.1.2.build.72-stable</version>
       <scope>provided</scope>
     </dependency>
   </dependencies>
