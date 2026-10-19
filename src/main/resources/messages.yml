@@ -1,0 +1,64 @@
+# Format MiniMessage. Placeholder dalam < > jangan diubah namanya.
+prefix: "<dark_red>[<red>Scarlet<dark_red>] <gray>"
+
+only-player: "<red>Command ini hanya untuk player."
+no-permission: "<red>Kamu tidak punya izin untuk itu."
+player-not-found: "<red>Player <white><player> <red>tidak ditemukan / offline."
+usage: "<yellow>Pemakaian: <white><usage>"
+reloaded: "<green>Config dan pesan dimuat ulang."
+cooldown: "<red>Tunggu <white><time> <red>lagi."
+
+fly-on: "<green>Fly <bold>aktif</bold>."
+fly-off: "<red>Fly <bold>nonaktif</bold>."
+fly-other-on: "<green>Fly untuk <white><player> <green>aktif."
+fly-other-off: "<red>Fly untuk <white><player> <red>nonaktif."
+fly-gamemode: "<yellow><player> sudah bisa terbang di gamemode ini."
+
+heal-done: "<green>Darah dan lapar kamu terisi penuh."
+heal-other: "<green>Kamu menyembuhkan <white><player><green>."
+feed-done: "<green>Lapar kamu terisi penuh."
+feed-other: "<green>Kamu mengenyangkan <white><player><green>."
+
+god-on: "<green>Mode god <bold>aktif</bold>."
+god-off: "<red>Mode god <bold>nonaktif</bold>."
+god-other-on: "<green>God untuk <white><player> <green>aktif."
+god-other-off: "<red>God untuk <white><player> <red>nonaktif."
+
+speed-walk: "<green>Kecepatan jalan: <white><speed>"
+speed-fly: "<green>Kecepatan terbang: <white><speed>"
+speed-reset: "<green>Kecepatan dikembalikan ke normal."
+
+nick-set: "<green>Nama tampilan kamu sekarang: <white><nick>"
+nick-reset: "<green>Nama tampilan dikembalikan."
+nick-invalid: "<red>Nick harus 3-16 karakter (huruf, angka, _). Boleh pakai kode warna &."
+
+hat-empty: "<red>Pegang item di tangan dulu."
+hat-done: "<green>Item dipasang di kepala."
+
+vanish-on: "<green>Vanish <bold>aktif</bold>. Kamu tidak terlihat."
+vanish-off: "<red>Vanish <bold>nonaktif</bold>. Kamu terlihat lagi."
+
+
+tp-done: "<green>Teleport ke <white><player>"
+tphere-done: "<green>Kamu menarik <white><player>"
+tphere-moved: "<green>Kamu ditarik ke <white><player>"
+tpall-done: "<green>Menarik <white><count> <green>player."
+
+frozen: "<red>Kamu dibekukan oleh staff. Jangan keluar dari server!"
+unfrozen: "<green>Kamu sudah tidak dibekukan."
+freeze-on-other: "<green><player> dibekukan."
+freeze-off-other: "<green><player> dilepas."
+freeze-bypass: "<red><player> tidak bisa dibekukan."
+
+staffchat-on: "<green>Mode staff chat <bold>aktif</bold>. Semua chat-mu ke staff."
+staffchat-off: "<red>Mode staff chat <bold>nonaktif</bold>."
+staffchat-format: "<dark_red>[<red>Staff<dark_red>] <gray><player><dark_gray>: <white><message>"
+
+
+
+
+
+kit-none: "<red>Tidak ada kit yang bisa kamu pakai."
+kit-list: "<green>Kit kamu: <white><kits>"
+kit-unknown: "<red>Kit tidak ditemukan."
+kit-given: "<green>Kit <white><kit> <green>diterima!"

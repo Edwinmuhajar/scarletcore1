@@ -1,0 +1,62 @@
+# ScarletCore config. Pesan ada di messages.yml. Format warna: MiniMessage (<red>, <#ff0000>, dll)
+
+# Cooldown command (detik). 0 = tanpa cooldown. Bypass: scarletcore.cooldown.bypass
+cooldowns:
+  heal: 60
+  feed: 30
+
+# Pesan join/quit per rank. Dicek lewat permission group.<nama-group> dari LuckPerms.
+# Urutan dari atas ke bawah = prioritas, yang pertama cocok dipakai.
+# Ganti nama rank sesuai nama group di LuckPerms (cek: /lp listgroups).
+# Kosongkan ("") untuk menyembunyikan pesan.
+join-quit:
+  enabled: true
+  default-join: "<gray>[<green>+<gray>] <white><player>"
+  default-quit: "<gray>[<red>-<gray>] <white><player>"
+  ranks:
+    owner:
+      join: "<dark_red><bold>OWNER</bold> <red><player> <gray>bergabung!"
+      quit: "<dark_red><bold>OWNER</bold> <red><player> <gray>keluar."
+    sradmin:
+      join: "<red><bold>SR.ADMIN</bold> <white><player> <gray>bergabung!"
+      quit: "<red><bold>SR.ADMIN</bold> <white><player> <gray>keluar."
+    admin:
+      join: "<red><bold>ADMIN</bold> <white><player> <gray>bergabung!"
+      quit: "<red><bold>ADMIN</bold> <white><player> <gray>keluar."
+    dev:
+      join: "<aqua><bold>DEV</bold> <white><player> <gray>bergabung!"
+      quit: "<aqua><bold>DEV</bold> <white><player> <gray>keluar."
+    srmedia:
+      join: "<light_purple><bold>SR.MEDIA</bold> <white><player> <gray>bergabung!"
+      quit: "<light_purple><bold>SR.MEDIA</bold> <white><player> <gray>keluar."
+    srhelper:
+      join: "<blue><bold>SR.HELPER</bold> <white><player> <gray>bergabung!"
+      quit: "<blue><bold>SR.HELPER</bold> <white><player> <gray>keluar."
+    jrhelper:
+      join: "<blue><bold>JR.HELPER</bold> <white><player> <gray>bergabung!"
+      quit: "<blue><bold>JR.HELPER</bold> <white><player> <gray>keluar."
+    donaturplus:
+      join: "<gold><bold>DONATUR+</bold> <white><player> <gray>bergabung!"
+      quit: "<gold><bold>DONATUR+</bold> <white><player> <gray>keluar."
+    donatur:
+      join: "<yellow><bold>DONATUR</bold> <white><player> <gray>bergabung!"
+      quit: "<yellow><bold>DONATUR</bold> <white><player> <gray>keluar."
+
+# Kit. Nama kit huruf kecil. Item: "MATERIAL:JUMLAH". Cooldown dalam detik.
+# Akses per kit lewat permission scarletcore.kit.<nama>  (contoh: scarletcore.kit.starter)
+kits:
+  starter:
+    cooldown: 86400
+    items:
+      - "BREAD:16"
+      - "STONE_SWORD:1"
+      - "STONE_PICKAXE:1"
+      - "STONE_AXE:1"
+  donatur:
+    cooldown: 86400
+    items:
+      - "COOKED_BEEF:32"
+      - "GOLDEN_APPLE:4"
+      - "IRON_SWORD:1"
+      - "IRON_PICKAXE:1"
+      - "DIAMOND:8"

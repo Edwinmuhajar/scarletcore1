@@ -1,0 +1,96 @@
+name: ScarletCore
+version: 1.1.0
+main: com.scarlet.core.ScarletCore
+api-version: '26.1'
+description: ScarletCore - fly, perk donatur, tools staff, kit
+author: Scarlet
+
+commands:
+  fly:
+    description: Aktifkan / matikan mode terbang
+    usage: /fly [player]
+  heal:
+    description: Isi darah dan lapar
+    usage: /heal [player]
+  feed:
+    description: Isi lapar
+    usage: /feed [player]
+  god:
+    description: Mode kebal
+    usage: /god [player]
+  speed:
+    description: Atur kecepatan jalan / terbang
+    usage: /speed <1-10|reset>
+  nick:
+    description: Ganti nama tampilan
+    usage: /nick <nama|reset>
+  hat:
+    description: Pasang item di kepala
+    usage: /hat
+  ec:
+    description: Buka ender chest
+    usage: /ec
+    aliases: [enderchest]
+  craft:
+    description: Buka crafting table
+    usage: /craft
+    aliases: [workbench]
+  vanish:
+    description: Menghilang dari player biasa
+    usage: /vanish
+    aliases: [v]
+  invsee:
+    description: Lihat inventory player
+    usage: /invsee <player>
+  endersee:
+    description: Lihat ender chest player
+    usage: /endersee <player>
+  tp:
+    description: Teleport ke player
+    usage: /tp <player>
+  tphere:
+    description: Tarik player ke kamu
+    usage: /tphere <player>
+  tpall:
+    description: Tarik semua player ke kamu
+    usage: /tpall
+  freeze:
+    description: Bekukan / lepas player
+    usage: /freeze <player>
+  staffchat:
+    description: Chat khusus staff
+    usage: /sc [pesan]
+    aliases: [sc]
+  kit:
+    description: Ambil kit
+    usage: /kit [nama]
+  scarletcore:
+    description: Admin ScarletCore
+    usage: /scarletcore reload
+
+permissions:
+  scarletcore.fly: {description: "/fly", default: false}
+  scarletcore.fly.others: {description: "/fly player lain", default: false}
+  scarletcore.heal: {description: "/heal", default: false}
+  scarletcore.heal.others: {description: "/heal player lain", default: false}
+  scarletcore.feed: {description: "/feed", default: false}
+  scarletcore.god: {description: "/god", default: false}
+  scarletcore.god.others: {description: "/god player lain", default: false}
+  scarletcore.speed: {description: "/speed", default: false}
+  scarletcore.nick: {description: "/nick", default: false}
+  scarletcore.hat: {description: "/hat", default: false}
+  scarletcore.ec: {description: "/ec", default: false}
+  scarletcore.craft: {description: "/craft", default: false}
+  scarletcore.vanish: {description: "/vanish", default: false}
+  scarletcore.vanish.see: {description: "Bisa melihat player yang vanish", default: false}
+  scarletcore.invsee: {description: "/invsee", default: false}
+  scarletcore.endersee: {description: "/endersee", default: false}
+  scarletcore.tp: {description: "/tp", default: false}
+  scarletcore.tphere: {description: "/tphere", default: false}
+  scarletcore.tpall: {description: "/tpall", default: false}
+  scarletcore.freeze: {description: "/freeze", default: false}
+  scarletcore.freeze.bypass: {description: "Tidak bisa di-freeze", default: false}
+  scarletcore.staffchat: {description: "Staff chat", default: false}
+  scarletcore.cooldown.bypass: {description: "Lewati cooldown", default: false}
+  scarletcore.reload: {description: "/scarletcore reload", default: false}
+  scarletcore.kit: {description: "/kit (tiap kit tetap butuh scarletcore.kit.<nama>)", default: true}
